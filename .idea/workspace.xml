@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af676e2f-e90c-434e-8f53-bf7edfe3529f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/modelo/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/testes/CadastroDeProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="af676e2f-e90c-434e-8f53-bf7edfe3529f" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/dao/CategoriaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/dao/ProdutoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/modelo/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/util/JPAUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bacondeveight/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/modelo/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bacondeveight/testes/CadastroDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bacondeveight/testes/CadastroDeProduto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +63,14 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bacondeveight.modelo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bacondeveight.dao" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.CadastroDeProduto">
     <configuration name="CadastroDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bacondeveight.testes.CadastroDeProduto" />
@@ -111,11 +115,40 @@
       <updated>1677114411734</updated>
       <workItem from="1677114413010" duration="1244000" />
       <workItem from="1677159435942" duration="8180000" />
-      <workItem from="1677290022463" duration="97000" />
+      <workItem from="1677290022463" duration="271000" />
+      <workItem from="1677332148205" duration="1828000" />
+      <workItem from="1677368951056" duration="1201000" />
+      <workItem from="1677420924505" duration="4179000" />
+      <workItem from="1677900098407" duration="518000" />
+      <workItem from="1677974312800" duration="625000" />
+      <workItem from="1678046021314" duration="1452000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1677290237408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677290237408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
