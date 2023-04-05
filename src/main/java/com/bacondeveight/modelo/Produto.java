@@ -20,6 +20,17 @@ public class Produto {
     @ManyToOne
     private Categoria categoria;
 
+    public Produto() {
+    }
+
+    public Produto(String nome, String descicao, BigDecimal preco, Categoria categoria) {
+        this.nome = nome;
+        this.descricao = descicao;
+        this.preco = preco;
+        this.categoria = categoria;
+
+    }
+
     public Long getId() {
         return id;
     }
